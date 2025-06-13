@@ -6,13 +6,14 @@ import java.awt.event.*;
 import java.util.ArrayList;
 import java.util.Stack;
 
-public class AdvancedCalculator {
+// This is a complete mobile application version of the Advanced Calculator
+public class CompleteMobileAdvancedCalculator {
     private JFrame frame;
     private JTextField display;
     private ArrayList<String> history;
 
-    public AdvancedCalculator() {
-        frame = new JFrame("Advanced Calculator");
+    public CompleteMobileAdvancedCalculator() {
+        frame = new JFrame("Complete Mobile Advanced Calculator");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(400, 600);
 
@@ -232,7 +233,7 @@ public class AdvancedCalculator {
     }
 
     public static void main(String[] args) {
-        SwingUtilities.invokeLater(AdvancedCalculator::new);
+        SwingUtilities.invokeLater(CompleteMobileAdvancedCalculator::new);
     }
 }
 
