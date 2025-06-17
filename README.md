@@ -5,8 +5,7 @@ A feature-rich calculator application for Android with scientific and memory fun
 ## Features
 
 - Basic arithmetic operations (addition, subtraction, multiplication, division)
-- Scientific functions (sin, cos, tan, square root)
-- Memory operations (MC, MR, M+, M-)
+
 - Percentage calculations
 - Decimal point support
 - Backspace functionality
